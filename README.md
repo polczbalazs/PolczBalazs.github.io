@@ -1,29 +1,85 @@
 # polczbalazs.github.io
 
-# címsor 1
-## címsor 2
-### címsor 3
-#### címsor 4
+# Címsor 1
+## Címsor 2 
+### Címsor 3
+#### Címsor 4 
+##### Címsor 5 
+
+#Markdown
+
+##Blokkok
+
+### Felsorolás
 
 - egg
 - ham
-- baz
+- spam
 
-Számozás
-
+számozás
 1. foo
-2. bar
-3. baz
+1. bar
+1. baz
 
 bekezdés
 
-itt nem kell < p > címkével nyítni
-és a végén < /p > taggal zárni
+itt nem kell < p > címkével nyitni
+és a végén < / p > taggel zárni
 elég két darab sortöréssel jelölni
-Ez például csak egy sortörés volt, nem lesz belőle új bekezdés
+Ez példáu csak egy sortorés volt, nem lesz belole uj bekezdés
 
-### blokkols idézet 
+### blokkkols idézet (szovegdoboz)
 
     Ez egy kiemelt rész
     --- 
-    gyakran hosszan
+    Gyakran Hosszab idézet
+
+Egész eddig
+
+### Vízszintes választóvonal
+
+---
+
+``` html
+ AltGr + 7
+<h1> Kódrészlet </h1>
+``` 
+
+``` css
+p {color: red; }
+```
+
+``` python
+szám = int(input("szám"))
+```
+
+pipe karakterek AltGr + W
+
+Fejléc | fejléc
+----------|-----------
+adatok | adatok
+.... | ....
+stb. | stb.
+
+## Szövegformázások (inline)
+
+*dőlt*
+
+**félkövér**
+
+_dőlt_
+
+__félkövér__
+
+
+~~AltGr +1 kihúzás~~
+
+## linkek
+
+https://umszki.hu/
+
+[link szövege](https://umszki.hu/)
+
+### Kép beszúrása
+
+![távoli kép](https://i.ytimg.com/vi/zluwJsU4dBs/maxresdefault.jpg)
